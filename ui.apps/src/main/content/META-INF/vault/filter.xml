@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/dish"/>
+
+    <filter root="/apps/sling/servlet/errorhandler"/>
+
+
+    <filter root="/conf/dish" mode="merge"/>
+
+
+    <filter root="/etc/clientlibs/dish"/>
+
+
+    <filter root="/etc/designs/dish">
+        <include pattern="/etc/designs/dish/jcr:content"/>
+
+    </filter>
+
+</workspaceFilter>
